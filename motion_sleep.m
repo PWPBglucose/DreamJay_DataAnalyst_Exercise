@@ -9,6 +9,12 @@
 
 %---- phone.csv
 [timestmap, Xacc, Yacc, Zacc] = csvread['phone.csv',','];
-[timestampSP, sleepPhaseNb] = csvread['sleep_phases.csv',','];
+[timestampSP, sleepPhaseNr] = csvread['sleep_phases.csv',','];
+
+
+figure(1)
+plot(sleepPhaseNr)
 
 %asdasd
+
+%dioc asdas
